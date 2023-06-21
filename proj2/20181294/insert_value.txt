@@ -1,0 +1,255 @@
+/*shipper data*/
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S001', 'John Doe', '123 Main St', 'ACCT001');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S002', 'Jane Smith', '456 Elm St', 'ACCT002');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S003', 'Michael Johnson', '789 Oak St', 'ACCT003');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S004', 'Emily Davis', '321 Pine St', 'ACCT004');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S005', 'Robert Wilson', '654 Cedar St', 'ACCT005');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S006', 'Olivia Clark', '987 Maple St', 'ACCT006');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S007', 'William Rodriguez', '234 Birch St', 'ACCT007');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S008', 'Sophia Hernandez', '567 Walnut St', 'ACCT008');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S009', 'James Lee', '890 Spruce St', 'ACCT009');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S010', 'Emma Ngushipperyen', '432 Fir St', 'ACCT010');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S011', 'Daniel Kim', '765 Ash St', 'ACCT011');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S012', 'Ava Martinez', '098 Oak St', 'ACCT012');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S013', 'Alexander Thompson', '321 Pine St', 'ACCT013');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S014', 'Mia White', '654 Elm St', 'ACCT014');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES   ('S015', 'Ethan Harris', '987 Cedar St', 'ACCT015');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S016', 'Isabella Clark', '234 Maple St', 'ACCT016');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S017', 'Jacob Scott', '567 Birch St', 'ACCT017');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S018', 'Emily Rodriguez', '890 Walnut St', 'ACCT018');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S019', 'Jayden Hernandez', '432 Spruce St', 'ACCT019');
+INSERT INTO shipper (shipper_ID, name, address, account_num) VALUES    ('S020', 'Abigail Lee', '765 Fir St', 'ACCT020');
+
+/*customer data*/
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES ('C001', 'John Doe', '123 Main St', 'ACCT101');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES    ('C002', 'Jane Smith', '456 Elm St', 'ACCT102');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES    ('C003', 'Michael Johnson', '789 Oak St', 'ACCT103');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES    ('C004', 'Emily Davis', '321 Pine St', 'ACCT104');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES    ('C005', 'Robert Wilson', '654 Cedar St', 'ACCT105');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C006', 'Olivia Clark', '987 Maple St', 'ACCT106');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C007', 'William Rodriguez', '234 Birch St', 'ACCT107');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C008', 'Sophia Hernandez', '567 Walnut St', 'ACCT108');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C009', 'James Lee', '890 Spruce St', 'ACCT109');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES  ('C010', 'Emma Nguyen', '432 Fir St', 'ACCT110');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES  ('C011', 'Daniel Kim', '765 Ash St', 'ACCT111');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C012', 'Ava Martinez', '098 Oak St', 'ACCT112');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES  ('C013', 'Alexander Thompson', '321 Pine St', 'ACCT113');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES  ('C014', 'Mia White', '654 Elm St', 'ACCT114');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C015', 'Ethan Harris', '987 Cedar St', 'ACCT115');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C016', 'Isabella Clark', '234 Maple St', 'ACCT116');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C017', 'Jacob Scott', '567 Birch St', 'ACCT117');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C018', 'Emily Rodriguez', '890 Walnut St', 'ACCT118');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C019', 'Jayden Hernandez', '432 Spruce St', 'ACCT119');
+INSERT INTO customer (customer_ID, name, address, account_num) VALUES   ('C020', 'Abigail Lee', '765 Fir St', 'ACCT120');
+
+
+/*contract data*/
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S001', 'C001');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S002', 'C002');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S003', 'C003');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S004', 'C004');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S005', 'C005');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S006', 'C006');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S007', 'C007');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S008', 'C008');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S009', 'C009');
+INSERT INTO contract (shipper_ID, customer_ID)  VALUES    ('S010', 'C010');
+
+/*shipping company*/
+INSERT INTO shipping_company (company_name, contact_number)  VALUES    ('CJ', '123-5678');
+INSERT INTO shipping_company (company_name, contact_number)  VALUES    ('Wooche', '231-2351');
+INSERT INTO shipping_company (company_name, contact_number)  VALUES    ('Logen', '534-9090');
+INSERT INTO shipping_company (company_name, contact_number)  VALUES    ('CU', '125-2312');
+INSERT INTO shipping_company (company_name, contact_number)  VALUES    ('GS', '523-2312');
+
+/*user-shipper*/
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CJ', 'S003', 37, 625.19);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Wooche', 'S016', 42, 901.58);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Logen', 'S009', 80, 289.73);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CU', 'S012', 91, 535.14);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('GS', 'S008', 15, 760.27);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CJ', 'S014', 67, 438.10);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Wooche', 'S001', 52, 903.76);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Logen', 'S011', 23, 722.48);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CU', 'S017', 64, 219.05);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('GS', 'S019', 74, 671.93);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CJ', 'S013', 18, 381.87);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Wooche', 'S006', 90, 173.25);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Logen', 'S004', 56, 847.61);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CU', 'S018', 29, 978.32);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('GS', 'S010', 85, 518.40);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CJ', 'S020', 31, 625.49);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Wooche', 'S002', 99, 231.02);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('Logen', 'S005', 43, 741.86);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('CU', 'S015', 67, 407.97);
+INSERT INTO user_shipper (company_name, shipper_ID, num_of_use, total_payment_cost)  VALUES    ('GS', 'S007', 52, 816.76);
+
+/*user-customer*/
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('CJ', 'C003', 18, 350.67);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('Wooche', 'C014', 27, 450.29);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('Logen', 'C008', 63, 892.11);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('CU', 'C012', 41, 673.52);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('GS', 'C007', 95, 231.45);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('CJ', 'C011', 32, 587.12);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('Wooche', 'C019', 56, 912.34);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('Logen', 'C016', 74, 365.76);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('CU', 'C015', 29, 765.21);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('GS', 'C009', 82, 421.09);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('CJ', 'C018', 47, 825.13);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('Wooche', 'C002', 63, 152.54);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('Logen', 'C004', 51, 721.36);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('CU', 'C017', 39, 286.54);
+INSERT INTO user_customer (company_name, customer_ID, num_of_use, total_payment_cost)	VALUES    ('GS', 'C020', 68, 983.42);
+    
+
+/*bill*/
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B001', 'T001', 'Credit Card', 250.75, '2023-04-01 12:00:00', '2023-04-10 15:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B002', 'T002', 'Cash', 150.50, '2023-04-02 10:30:00', '2023-04-11 10:45:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B003', 'T003', 'Credit Card', 198.25, '2023-04-03 11:45:00', '2023-04-09 12:15:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B004', 'T004', 'Cash', 180.00, '2023-04-04 14:20:00', '2023-04-10 14:20:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B005', 'T005', 'Credit Card', 275.80, '2023-04-05 16:30:00', '2023-04-11 16:50:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B006', 'T006', 'Cash', 210.00, '2023-04-06 09:15:00', '2023-04-12 11:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B007', 'T007', 'Credit Card', 350.20, '2023-04-07 13:40:00', '2023-04-13 10:20:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B008', 'T008', 'Cash', 320.50, '2023-04-08 15:20:00', '2023-04-14 09:45:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B009', 'T009', 'Credit Card', 175.30, '2023-04-09 11:10:00', '2023-04-15 12:35:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B010', 'T010', 'Cash', 198.75, '2023-04-10 14:45:00', '2023-04-16 14:55:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B011', 'T011', 'Credit Card', 285.20, '2023-04-11 16:55:00', '2023-04-17 17:10:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B012', 'T012', 'Cash', 220.00, '2023-04-12 10:25:00', '2023-04-18 13:20:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B013', 'T013', 'Credit Card', 390.60, '2023-04-13 12:50:00', '2023-04-19 15:40:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B014', 'T014', 'Cash', 280.75, '2023-04-14 14:30:00', '2023-04-20 09:50:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B015', 'T015', 'Credit Card', 210.90, '2022-04-15 16:40:00', '2022-04-21 11:15:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B016', 'T016', 'Cash', 165.50, '2022-04-16 09:35:00', '2022-04-22 12:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B017', 'T017', 'Credit Card', 310.25, '2022-04-17 13:15:00', '2022-04-23 14:40:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B018', 'T018', 'Cash', 270.80, '2022-04-18 15:50:00', '2022-04-24 16:20:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B019', 'T019', 'Credit Card', 190.00, '2022-04-19 11:20:00', '2022-04-25 10:05:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B020', 'T020', 'Cash', 9999.10, '2022-04-20 14:15:00', '2022-04-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B021', 'T021', 'Cash', 9999.10, '2022-04-20 14:15:00', '2022-04-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B022', 'T022', 'Cash', 9999.10, '2022-04-20 14:15:00', '2022-04-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B023', 'T023', 'Cash', 999999.10, '2022-04-20 14:15:00', '2022-04-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B024', 'T023', 'Cash', 9999.10, '2023-04-20 14:15:00', '2023-04-26 13:30:00', 'Paid');
+    
+    /*T5*/
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B025', 'T025', 'Cash', 100.10, '2023-05-20 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B026', 'T026', 'Credit Card', 300.10, '2023-05-20 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B027', 'T027', 'Cash', 1012.10, '2023-05-10 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B028', 'T028', 'Cash', 11.10, '2023-05-11 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B029', 'T029', 'Cash', 22.10, '2023-05-20 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B030', 'T030', 'Credit Card', 310.10, '2023-05-09 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B031', 'T031', 'Credit Card', 900.10, '2023-05-30 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B032', 'T032', 'Cash', 810.10, '2023-05-20 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B033', 'T033', 'Credit Card', 420.10, '2023-05-20 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B034', 'T034', 'Bank transfer', 440.10, '2023-05-08 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B035', 'T035', 'Cash', 400.10, '2023-05-01 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B036', 'T036', 'Cash', 500.10, '2023-05-20 14:15:00', '2023-05-26 13:30:00', 'Paid');
+INSERT INTO bill (bill_ID, payer_ID, method, price, billing_date, payment_date, bill_status)  VALUES    ('B037', 'T037', 'Cash', 20.10, '2023-05-20 14:15:00', '2023-05-26 13:30:00', 'Paid');
+    
+
+
+/*package*/
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P001', 'S001', 'C003', 'Wooche', 'Medium', 5.50, 'Standard', 'Delivered', '2023-06-01 09:30:00', '2023-06-03 11:45:00', '2023-06-04 11:45:00', 'Handle with care', 'B001');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P002', 'S003', 'C015', 'CJ', 'Large', 10.20, 'Express', 'Delivered', '2023-06-01 08:45:00', '2023-06-03 11:00:00', '2023-06-05 11:00:00', 'Fragile', 'B002');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P003', 'S008', 'C012', 'GS', 'Small', 3.20, 'Standard', 'In transit', '2023-06-01 11:15:00', NULL, '2023-06-04 15:30:00', NULL, 'B003');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P004', 'S010', 'C014', 'GS', 'Medium', 5.60, 'Express', 'In transit', '2023-06-01 09:00:00', NULL, '2023-06-03 11:15:00', 'Handle with care', 'B004');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P005', 'S002', 'C011', 'Wooche', 'Large', 10.90, 'Standard', 'In transit', '2023-06-01 06:45:00', NULL, '2023-06-04 09:00:00', 'Fragile', 'B005');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P006', 'S004', 'C016', 'Logen', 'Small', 3.60, 'Express', 'Delivered', '2023-06-01 10:30:00', '2023-06-03 14:45:00', '2023-06-02 14:45:00', 'Handle with care', 'B006');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P007', 'S009', 'C009', 'Logen', 'Medium', 5.80, 'Standard', 'In transit', '2023-06-01 08:00:00', NULL, '2023-06-03 12:15:00', NULL, 'B007');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P009', 'S019', 'C008', 'GS', 'Small', 3.00, 'Standard', 'Delivered', '2023-06-01 10:00:00', '2023-06-03 14:15:00', '2023-06-02 14:15:00', 'Handle with care', 'B009');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P010', 'S018', 'C006', 'Wooche', 'Medium', 5.30, 'Express', 'In transit', '2023-06-01 08:30:00', NULL, '2023-06-03 12:45:00', NULL, 'B010');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P012', 'S010', 'C010', 'GS', 'Small', 3.40, 'Express', 'Delivered', '2023-06-01 09:45:00', '2023-06-03 12:00:00', '2023-06-06 12:00:00', 'Handle with care', 'B012');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P013', 'S004', 'C007', 'Logen', 'Medium', 5.70, 'Standard', 'In transit', '2023-06-01 07:30:00', NULL, '2023-06-04 11:45:00', NULL, 'B013');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P014', 'S007', 'C017', 'CJ', 'Large', 11.00, 'Express', 'Delivered', '2023-06-01 08:45:00', '2023-06-03 11:00:00', '2023-06-02 11:00:00', 'Fragile', 'B014');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P015', 'S013', 'C004', 'Wooche', 'Small', 3.50, 'Standard', 'Delivered', '2022-06-01 11:15:00', '2022-06-03 13:30:00', '2022-06-10 13:30:00', 'Handle with care', 'B015');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P016', 'S013', 'C018', 'CU', 'Medium', 5.90, 'Express', 'Delivered', '2022-06-01 09:00:00', '2022-06-03 11:15:00', '2022-06-04 11:15:00', 'Fragile', 'B016');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES     ('P017', 'S020', 'C020', 'GS', 'Large', 10.80, 'Standard', 'Delivered', '2022-06-01 06:45:00', '2022-06-03 06:45:00', '2022-06-07 09:00:00', NULL, 'B017');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES     ('P018', 'S020', 'C013', 'Logen', 'Small', 3.10, 'Express', 'Delivered', '2022-06-01 10:30:00', '2022-06-03 14:45:00', '2022-06-02 14:45:00', 'Handle with care', 'B018');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P019', 'S020', 'C005', 'CJ', 'Medium', 5.40, 'Standard', 'Delivered', '2022-06-01 08:00:00', '2022-06-02 08:00:00', '2022-06-01 12:15:00', NULL, 'B019');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P020', 'S020', 'C001', 'Wooche', 'Large', 11.20, 'Express', 'Delivered', '2022-06-01 07:15:00', '2022-06-03 09:30:00', '2022-06-02 09:30:00', 'Fragile', 'B020');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P111', 'S020', 'C001', 'Wooche', 'Large', 11.20, 'Express', 'Delivered', '2022-06-01 07:15:00', '2022-06-03 09:30:00', '2022-06-04 09:30:00', 'Fragile', 'B020');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P222', 'S020', 'C001', 'Wooche', 'Large', 11.20, 'Express', 'Delivered', '2023-06-01 07:15:00', '2022-06-03 09:30:00', '2022-06-04 09:30:00', 'Fragile', 'B020');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P333', 'S020', 'C001', 'Wooche', 'Large', 11.20, 'Express', 'Delivered', '2021-06-01 07:15:00', '2021-06-03 09:30:00', '2021-06-01 09:30:00', 'Fragile', 'B020');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P444', 'S020', 'C001', 'Wooche', 'Large', 11.20, 'Express', 'Delivered', '2022-06-01 07:15:00', '2022-06-03 09:30:00', '2022-06-01 09:30:00', 'Fragile', 'B020');
+
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P021', 'S006', 'C002', 'CJ', 'Medium', 5.40, 'Standard', 'Delivered', '2022-06-01 08:00:00', '2022-06-02 08:00:00', '2022-06-03 12:15:00', NULL, 'B021');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P022', 'S006', 'C003', 'CJ', 'Medium', 5.40, 'Standard', 'Delivered', '2022-06-01 08:00:00', '2022-06-02 08:00:00', '2022-06-03 12:15:00', NULL, 'B022');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	  ('P023', 'S006', 'C004', 'CJ', 'Medium', 5.40, 'Standard', 'Delivered', '2022-06-01 08:00:00', '2022-06-02 08:00:00', '2022-06-03 12:15:00', NULL, 'B023');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P008', 'S006', 'C019', 'Wooche', 'Large', 11.10, 'Express', 'Delivered', '2023-06-01 07:15:00', '2023-06-03 09:30:00', '2023-06-04 09:30:00', 'Fragile', 'B008');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P011', 'S006', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-06-01 06:00:00', '2023-06-03 08:15:00', '2023-06-04 08:15:00', 'Fragile', 'B011');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P024', 'S006', 'C004', 'CJ', 'Medium', 5.40, 'Standard', 'Delivered', '2021-06-01 08:00:00', '2021-06-02 08:00:00', '2021-06-03 12:15:00', NULL, 'B024');
+
+
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P911', 'S007', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B025');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P811', 'S007', 'C004', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B026');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P912', 'S008', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B027');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P913', 'S009', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B028');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P813', 'S009', 'C003', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B029');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P814', 'S009', 'C004', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B030');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P914', 'S010', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B031');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P915', 'S011', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B032');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P815', 'S011', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B033');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P816', 'S011', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B034');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P817', 'S011', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B035');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P916', 'S012', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B036');
+INSERT INTO package (package_ID, shipper_ID, customer_ID, company_name, box_type, weight, delivery_type, deliver_status, start_day, end_day, promised_day, special_note, bill_ID) VALUES	('P917', 'S013', 'C002', 'CU', 'Large', 10.50, 'Standard', 'Delivered', '2023-05-01 06:00:00', '2023-05-03 08:15:00', '2023-05-04 08:15:00', 'Fragile', 'B037');
+    
+
+
+/*driver*/
+INSERT INTO driver (license_ID, name, phone_number) VALUES    ('D001', 'John Doe', '123-456-7890');
+INSERT INTO driver (license_ID, name, phone_number) VALUES    ('D002', 'Jane Smith', '987-654-3210');
+INSERT INTO driver (license_ID, name, phone_number) VALUES    ('D003', 'Michael Johnson', '555-123-4567');
+INSERT INTO driver (license_ID, name, phone_number) VALUES    ('D004', 'Emily Davis', '789-123-4560');
+INSERT INTO driver (license_ID, name, phone_number) VALUES    ('D005', 'Robert Wilson', '456-789-0123');
+ 
+
+/*vehicle*/   
+INSERT INTO vehicle (vehicle_ID, vehicle_type, license_ID, maximum_loads, vehicle_status) VALUES    ('V001', 'Truck', 'D001', 500, 'Moving');
+INSERT INTO vehicle (vehicle_ID, vehicle_type, license_ID, maximum_loads, vehicle_status) VALUES    ('V002', 'Airplane', 'D002', 700, 'Moving');
+INSERT INTO vehicle (vehicle_ID, vehicle_type, license_ID, maximum_loads, vehicle_status) VALUES    ('V003', 'Truck', 'D003', 1000, 'Parking');
+INSERT INTO vehicle (vehicle_ID, vehicle_type, license_ID, maximum_loads, vehicle_status) VALUES    ('V004', 'Truck', 'D004', 800, 'Broken');
+INSERT INTO vehicle (vehicle_ID, vehicle_type, license_ID, maximum_loads, vehicle_status) VALUES    ('V005', 'Airplane', 'D005', 300, 'Parking');
+	 /*1721 truck*/
+INSERT INTO vehicle (vehicle_ID, vehicle_type, license_ID, maximum_loads, vehicle_status) VALUES    ('1721', 'Truck', 'D005', 300, 'Destroyed');
+    
+
+
+/*deliver*/    
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES        ('P007', 'V002', 'Airplane');
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES       ('P010', 'V003', 'Truck');
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES       ('P013', 'V004', 'Truck');
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES       ('P017', 'V005', 'Airplane');
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES       ('P019', 'V003', 'Truck');
+       /*1721 truck*/
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES       ('P003', '1721', 'Truck');
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES       ('P004', '1721', 'Truck');
+INSERT INTO deliver (package_ID, vehicle_ID, vehicle_type) VALUES       ('P005', '1721', 'Truck');
+       
+
+
+/*warehouse*/
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES ('123 Main St', 'Warehouse A');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES       ('456 Oak Ave', 'Warehouse B');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES       ('789 Elm St', 'Warehouse C');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES      ('321 Pine Rd', 'Warehouse D');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES      ('654 Maple Ave', 'Warehouse E');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES      ('987 Cedar St', 'Warehouse F');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES      ('741 Birch Rd', 'Warehouse G');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES       ('852 Spruce Ave', 'Warehouse H');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES       ('963 Oak St', 'Warehouse I');
+INSERT INTO warehouse (warehouse_address, warehouse_name) VALUES       ('159 Pine Ave', 'Warehouse J');
+       
+
+/*start_point*/
+INSERT INTO start_point (vehicle_ID, vehicle_type, warehouse_address) VALUES ('V001', 'Truck', '123 Main St');
+INSERT INTO start_point (vehicle_ID, vehicle_type, warehouse_address) VALUES ('V002', 'Airplane', '987 Cedar St');
+        /*1721*/
+INSERT INTO start_point (vehicle_ID, vehicle_type, warehouse_address) VALUES ('1721', 'Truck', '654 Maple Ave');
+
+
+/*destination*/
+INSERT INTO destination (vehicle_ID, vehicle_type, warehouse_address) VALUES ('V001', 'Truck', '159 Pine Ave');
+INSERT INTO destination (vehicle_ID, vehicle_type, warehouse_address) VALUES ('V002', 'Airplane', '159 Pine Ave');
+        /*1721*/
+INSERT INTO destination (vehicle_ID, vehicle_type, warehouse_address) VALUES ('1721', 'Truck', '159 Pine Ave');
+
+/*have been*/
+INSERT INTO have_been (package_ID, warehouse_address, daytime) VALUES ('P003', '963 Oak St', '1999-10-27 12:12:12');
